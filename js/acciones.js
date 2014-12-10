@@ -60,6 +60,6 @@ if (watchID) {
  //
  function ErrorLocalizacion(error) {
 	 alert('codigo:'   + error.code  + '\n' + 
-	        'mendaje: ' + error.message +'\n');
+	        'mensaje: ' + error.message +'\n');
  }
 });//documento ready
