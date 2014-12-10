@@ -47,13 +47,13 @@ if (watchID) {
  //
  function Localiza(posicion) {
 	 var element = document.getElementById('geolocalizacion');
-	 element.innerHTML = 'Latitud: '        + posicion.coord.latitude    + '<br />' +
-	                     'Longitud: '       + posicion.coord.longitude   + '<br />' +
-						 'Altitud: '        + posicion.coord.altitude    + '<br />' +
-						 'Precision: '        + posicion.coord.accuracy    + '<br />' +
-						 'Precision de Altitud: '        + posicion.coord.altitudeAccuracy    + '<br />' +
-						 'Direccion: '        + posicion.coord.heading    + '<br />' +
-						 'Velocidad:'        + posicion.coord.speed    + '<br />' +
+	 element.innerHTML = 'Latitud: '        + posicion.coords.latitude    + '<br />' +
+	                     'Longitud: '       + posicion.coords.longitude   + '<br />' +
+						 'Altitud: '        + posicion.coords.altitude    + '<br />' +
+						 'Precision: '        + posicion.coords.accuracy    + '<br />' +
+						 'Precision de Altitud: '        + posicion.coords.altitudeAccuracy    + '<br />' +
+						 'Direccion: '        + posicion.coords.heading    + '<br />' +
+						 'Velocidad:'        + posicion.coords.speed    + '<br />' +
 						 'Intervalo:'        + posicion.timestamp       + '<br />';
  }
  //Error en la geolocalizacion
